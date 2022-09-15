@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'RR';
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 165px;
+    background: #3E8989;
+}
+.header-nav-list{
+    display: flex;
+}
+.header-nav-link{
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 36px 15px;
+    display: block;
+    font-family: 'RM';
+    border-bottom: 2px solid transparent;
+}
+.header-nav-link:hover{
+    border-bottom: 2px solid #FFFFFF;
+    height: 3px;
+}
+.header-form{
+    max-width: 290px;
+    width: 100%;   
+    display: flex;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+.header-form-search {
+    border: none;
+    outline: none;
+    border-radius: 20px 0px 0px 20px;
+    width: 100%;
+    padding: 8px 0 8px 20px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #898989;  
+    font-family: 'RR';
+}
+.header-form-btn{
+    background: #295E5E;
+    border-radius: 0px 20px 20px 0px;
+    padding: 9px 14px;
+    font-size: 14px;
+    line-height: 17px;
+    color:  #FFFFFF;
+    border: none;
+    font-family: 'RR';
+}
+.header-content{
+    height: 800px;
+    background: url(../images/pic.jpg) no-repeat top /cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.header-content-title {
+    font-size: 80px;
+    line-height: 95px;  
+    color: #FFFFFF;
+    font-family: 'RSB';
+}
+.header-content-text {
+    font-size: 40px;
+    line-height: 47px; 
+    color: #FFFFFF; 
+    font-family: 'RM';
+    margin-top: 20px;
+    margin-bottom: 50px; 
+}
+.header-content-link {
+    padding: 14px 78px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    color: #B4436C;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'RR';
+    transition: 150ms;  
+}
+.header-content-link:hover {
+    background: #B4436C;
+    color: #FFFFFF;
+    cursor: pointer;  
+}
+.main-container {
+    padding-top: 80px;
+    padding-bottom: 95px;  
+}  
+.main-about {
+    display: flex;
+    column-gap: 20px;
+}  
+.title {
+    margin-bottom: 50px;  
+    text-align: center;
+    font-size: 40px;
+    line-height: 48px;
+    color: #3E8989;
+    font-family: 'ISB';
+}  
+.main-about-text {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    font-family: 'RR';
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.main-Catalog{
+    text-align: center;
+    font-size: 40px;
+    line-height: 48px;
+    color: #3E8989;
+    font-family: 'ISB';
+    margin-bottom: 53px;
+}
+.Catalog{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+.section-clothes-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 32px;
+    background: #EFEFEF;
+}
+.section-catalog-clothes{
+    position: absolute;
+    margin-top:350px;
+    color: #000000;
+    font-size: 24px;
+    line-height: 29px;
+    font-family: 'ISB';
+}
+.section-catalog-Shoes{
+    position: absolute;
+    margin-top:350px;
+    color: #000000;
+    font-size: 24px;
+    line-height: 29px;
+    font-family: 'ISB';
+}
+.section-catalog-Tents{
+    position: absolute;
+    margin-top:350px;
+    color: #000000;
+    font-size: 24px;
+    line-height: 29px;
+    font-family: 'ISB';
+}
+.section-catalog-Backpacks{
+    position: absolute;
+    margin-top:350px;
+    color: #000000;
+    font-size: 24px;
+    line-height: 29px;
+    font-family: 'ISB';
+}
+.section-catalog-title:hover{
+    color: #B4436C;
+}
+.main-contacts{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.main-contacts-tx{
+    display: flex;
+    gap: 388px; 
+}
+.main-contacts-text{
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    font-family: 'RR';
+    max-width: 555px;
+    width: 100%;
+    height: 48px;
+    left: 165px;
+    top: 2094px;
+    line-height: 30px;
+}
+.main-contacts-title{
+    font-size: 40px;
+    line-height: 48px;
+    color: #3E8989;
+    font-family: 'ISB';
+    text-align: left;
+}
+.contacts{
+    margin-top: 40px;
+    width: 166px;
+    height: 24px;
+    left: 1108px;
+    top: 2094px;
+}
+.main-contacts-link{
+    color: #000000;
+    font-size: 20px;
+    line-height: 40px;
+    font-family: 'RR';
+}
+.footer-content {
+    background: #3E8989;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+.footer-content-list{
+    font-size: 16px;
+    line-height: 19px;
+    font-family: 'RM';
+    color: #FFFFFF;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.footer-text {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    column-gap: 5px;
+}
+.footer-text-list {
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-top: 60px;
+    font-family: 'RR';
+}
+
+
+@media (max-width:1000px){
+    .header-nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-content{
+        width: 100%;
+    }
+    .Catalog{
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-container{
+        padding-top: 15px;
+    }
+    .title{
+        margin-bottom: 20px;
+    }
+    .main-about{
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-contacts-tx{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .main-contacts-title,
+    .main-contacts-text{
+        text-align: center;
+    }
+    .main-contacts{
+        padding-top: 60px;
+    }
+    .main-Catalog{
+        margin-bottom: 20px;
+    }
+    .section-clothes-item{
+        padding: 2px 175px;
+    }
+    .section-catalog-clothes{
+        margin-top: 320px;
+    }
+    .section-catalog-Shoes{
+        margin-top: 170px;
+    }
+    .section-catalog-Tents{
+        margin-top: 175px;
+    }
+    .section-catalog-Backpacks{
+        margin-top: 298px;
+    }
+}
